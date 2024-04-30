@@ -8,8 +8,8 @@ def create_files(directory, name, extension, n):
         os.makedirs(directory)
 
     for i in range(1, n+1):
-        filename = os.path.join(directory, f"{name}{i}.{extension}")
-        with open(filename, 'w') as f:
+        fileName = os.path.join(directory, f"{name}{i}.{extension}")
+        with open(fileName, 'w') as f:
             f.write("File number: " + str(i))
 
 directory = input("Write the folder path: ")
