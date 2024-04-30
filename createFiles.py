@@ -12,7 +12,6 @@ def create_files(directory, name, extension, n):
         with open(filename, 'w') as f:
             f.write("File number: " + str(i))
 
-
 directory = input("Write the folder path: ")
 fileName = input("Write the file name: ")
 extension = input("Write the file extension: ")
